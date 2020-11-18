@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+        <div id="map"></div>
+        <script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+        <script src="http://d3js.org/topojson.v1.min.js"></script>
+	    <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+        <script type="text/javascript" src="lib/d3-queue.js"></script>
+        <script type="text/javascript" src="lib/topojson.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+        <div id="chart"></div>
+        <div id="text">
+        <h1>Covid Cases in Washington Study</h1>
+            <p class="note">Data for Covd Cases provided by John Hopkins, Data accurate as of November 15th. Election data provided by Politico, and accurate as of November 15th</p>
+            
+            <p>In January of 2020, the first case of Covid-19 was found in Washington, and the US in general. Since then in the US, more than 11 million cases have been confirmed, and over 250,000 people have died, with many experts saying the total case and death total are much higher than reported. In Washington state, there have been over 135,000 cases and over 2500 deaths.</p>
+            
+            <p>This pandemic has become a political issue in the US, with many Republican politicians advocating for less strict lockdown rules, in order to keep small businesses open, and so that workers and industries most affected by the pandemic can still do business. Republicans have also expressed doubt on the effectiveness of facial coverings as a method for stopping the spread of the disease, pointing to comments early on by Dr. Anthony Fauci and the CDC that masks were not reccomended. </p>
+            
+            <p>In contrast, many Democratic politicians have advocated for strict lockdowns, shutting down most businesses and telling people to stay home and only leave for essential trips to places such as the grocery store or pharmacy.</p>
+            
+            <p>In the map, you can see a correlation between what candidate the county voted for in the 2020 presidential election, and their Covid Cases per 1k residents. All of the top ten Covid rates had a majority vote for Donald J. Trump, with the exception of Whitman County. </p>
+    
+            <p>One can also see a correlation between a county's percent of residents with a Bachelors degree or higher, and their Covid Cases rate. Many of the counties with a low percentage of higher education, are on the higher end of the Covid rate graph. Once again, Whitman County is an outlier, with the second highest rate of Bachelors attainment, but with the 4th highest Covid case rate per capita. Whitman's status as an outlier in Eastern Washington(a traditionally conservative region) is usually attributed to the presence of Washington State university in Pullman. </p>
+            <div class="gray">
+            <h1>The Road Ahead</h1>
+            <p>The outlook for the upcoming weeks and months do not look promising for Washington State. Prior to November 4th, the highest  7 day average for daily cases was 961(on July 19th). On Novemeber 4th the 7 day rate was 1002 cases a day, and is still increasing, with the rate on November 15th being reported as 1877 cases(almost doubling since the 4th, just 11 days after). On November 15th, Governer Jay Inslee gave a press conference announcing that gyms, indoor dining, and other businesses would be forced to close again, and retail and other permitted industries would have harsher restrictions on what their capacity can be inside.</p>
+            
+            <p>Nationwide, there continues to be a divide on how to handle the pandemic between politically parties. States with predominately Conservative leadership are being less strict than states with Democratic leaders. Almost every single state in the US is having record case numbers in the past month, and scientists and experts agree that the future looks to be only worse, as many people around the country are willing to travel to see family and friends for Thanksgiving, Christmas, and New Year's celebrations.</p>
+            
+            <p></p>
+            </div>
+        </div>
+    </body>
+</html>
